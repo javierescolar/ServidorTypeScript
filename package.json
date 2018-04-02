@@ -1,0 +1,31 @@
+{
+  "name": "servidor",
+  "version": "1.0.0",
+  "description": "Servidor para control de usuarios y licencias en dispositivos Android e IOS Madisa-GsBase",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Javier Escolar Salcedo",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^9.4.7",
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "jwt-simple": "^0.5.1",
+    "method-override": "^2.3.10",
+    "moment": "^2.21.0",
+    "mongoose": "^5.0.9",
+    "mongoose-timestamp": "^0.6.0",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.1",
+    "npm": "^5.8.0",
+    "save": "^2.3.2",
+    "socket.io": "^2.0.4",
+    "typescript": "^2.7.2"
+  }
+}
